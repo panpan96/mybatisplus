@@ -1,0 +1,9 @@
+spring:
+  datasource:
+        username: name
+        password: pw
+        driver-class-name: oracle.jdbc.OracleDriver
+        url: jdbc:oracle:thin:@000.000.000.000:1521:XXB
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
